@@ -6,6 +6,7 @@ body {
     background: url(/public/img/avatar_cf2f9ba31bc3_128.png) no-repeat;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
+    color: rgb(128, 128, 128);
 }
 
 #main {
@@ -15,5 +16,5 @@ body {
 }
 
 h1 {
-    font-size: 25em;
+    font-size: 50px;
 }
