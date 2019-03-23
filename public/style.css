@@ -3,6 +3,7 @@
 body {
     display: flex;
     align-items: center;
+    justify-content: center;
     background: url(/public/img/avatar_cf2f9ba31bc3_128.png) no-repeat;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
@@ -12,7 +13,6 @@ body {
 #main {
     display: flex;
     justify-content: center;
-    top: 50%;
 }
 
 h1 {
