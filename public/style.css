@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    display: flex;
+    align-items: center;
+    background: url(/public/img/avatar_cf2f9ba31bc3_128.png) no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    top: 50%;
+}
+
+h1 {
+    font-size: 25em;
+}
