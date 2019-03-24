@@ -25,7 +25,13 @@ h1 {
 }
 
 #social {
+    display: flex;
+    flex-direction: row;
+}
+
+.social {
     border: 0px;
-    height: 150px;
-    width: 150px;
+    height: 50px;
+    width: 50px;
+    opacity: 0.5;
 }
