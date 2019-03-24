@@ -36,7 +36,7 @@ h1 {
     height: 50px;
     width: 50px;
     opacity: 0.4;
-    filter: grayscale(1);
+    filter: sepia(50%);
 }
 
 .social:hover {
