@@ -5,10 +5,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(/public/img/avatar_cf2f9ba31bc3_128.png) no-repeat;
+    background: #000000 url(/public/img/avatar_cf2f9ba31bc3_128.png) no-repeat;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
-    color: rgb(128, 128, 128);
 }
 
 #main {
@@ -22,6 +21,9 @@ h1 {
     font-size: 50px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    background: linear-gradient(rgb(255, 207, 198), rgb(215, 148, 139));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #social {
