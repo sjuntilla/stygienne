@@ -22,6 +22,7 @@ h1 {
     letter-spacing: 2px;
     text-transform: uppercase;
     background: linear-gradient(rgb(255, 207, 198), rgb(215, 148, 139));
+    opacity: 0.7;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
