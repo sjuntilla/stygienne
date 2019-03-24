@@ -33,5 +33,10 @@ h1 {
     border: 0px;
     height: 50px;
     width: 50px;
-    opacity: 0.5;
+    opacity: 0.4;
+    filter: grayscale(1);
+}
+
+.social:hover {
+    opacity: 1;
 }
