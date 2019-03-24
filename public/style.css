@@ -21,3 +21,10 @@ h1 {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+#social {
+    border: 0px;
+    height: 150px;
+    width: 150px;
+
+}
