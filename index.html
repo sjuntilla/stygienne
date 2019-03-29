@@ -100,9 +100,9 @@
                 con.closePath();
                 var cr = this.r * newo;
                 g = con.createRadialGradient(this.x, this.y, 0, this.x, this.y, (cr <= 0 ? 1 : cr));
-                g.addColorStop(0.0, 'rgba(238,180,28,' + newo + ')');
-                g.addColorStop(this.stop, 'rgba(238,180,28,' + (newo * .2) + ')');
-                g.addColorStop(1.0, 'rgba(238,180,28,0)');
+                g.addColorStop(0.0, 'rgb(255, 207, 198,' + newo + ')');
+                g.addColorStop(this.stop, 'rgb(255, 207, 198,' + (newo * .2) + ')');
+                g.addColorStop(1.0, 'rgb(255, 207, 198,0)');
                 con.fillStyle = g;
                 con.fill();
             }
